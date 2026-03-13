@@ -1,0 +1,26 @@
+{
+  "name": "jogos-educacionais",
+  "version": "1.0.0",
+  "description": "Uma plataforma web moderna (SPA) para hospedar e executar jogos educativos desenvolvidos com **Phaser.js**, integrada ao ecossistema Google Workspace da rede municipal de Saquarema.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently \"npm run dev --prefix apps/frontend\" \"npm run dev --prefix apps/backend\"",
+    "dev:backend": "npm run dev --prefix apps/backend\"",
+    "dev:frontend": "npm run dev --prefix apps/frontend\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github-thyez:thyezoliveira/jogos-educacionais.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
